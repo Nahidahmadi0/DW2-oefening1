@@ -1,5 +1,5 @@
 
-FROM nginx:alpine
+FROM nginx:stable-alpine3.23-perl
 
 RUN date > /usr/share/nginx/html/buildtime.txt
 
